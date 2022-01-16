@@ -297,14 +297,12 @@
   
   .step:last-child {
     border-bottom: none;
-    align-items: center;
   }
   
   .step h3 {
     color: var(--secondary-color);
     font-size: 46px;
     flex: 1 30%;
-    align-items: center;
   }
 
   flex: <flex-grow value> <flex-sherink value> <flex-basis value>;
