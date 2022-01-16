@@ -10,7 +10,6 @@
     padding: 0;
   }
   
-  
   body {
     color: var(--tertiary-color);
     font-family: Helvetica, Arial, sans-serif;
@@ -60,7 +59,7 @@
   }
   
   header nav ul li a {
-    margin: 0 30px;
+    padding: 10px 15px;
     font-weight: lighter;
     font-size: 1.55vw;
   }
@@ -83,6 +82,7 @@
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
+    width: 100%;
   }
   
   footer h2 {
@@ -124,7 +124,7 @@
     margin: 3.5%;
     color: #fff;
     font-size: 18px;
-    line-height: 1.3;
+    line-height: 1.2;
   }
   
   .hero-cta h2 {
@@ -138,9 +138,9 @@
     background-color: rgba(255, 225, 56, 0.8);
     padding: 20px;
     color: var(--secondary-color);
+    width: 40%;
     margin: 3.5%;
     border-radius: 15px;
-    width: 40%;
   }
   
   .hero-form button:hover {
@@ -252,14 +252,10 @@
     font-size: 48px;
     border-bottom: 3px solid;
     color: var(--secondary-color);
+    padding-bottom: 20px;
     text-align: center;
-    width: 50%;
-    padding: 20px;
     margin: 0 auto 35px auto;
-  }
-
-  .flex-row {
-    display: flex;
+    width: 50%;
   }
   
   .primary-border {
@@ -292,6 +288,7 @@
     margin: 50px auto;
     padding-bottom: 50px;
     width: 80%;
+    border-bottom: 1px solid #39a6b2;
     display: flex;
     flex-wrap: wrap;
     align-items: center;
@@ -300,13 +297,20 @@
   
   .step:last-child {
     border-bottom: none;
+    align-items: center;
   }
   
   .step h3 {
     color: var(--secondary-color);
     font-size: 46px;
     flex: 1 30%;
+    align-items: center;
   }
+
+  flex: <flex-grow value> <flex-sherink value> <flex-basis value>;
+  flex: <flex-grow value> <flex-basis value>;
+  flex: <flex-grow value> <flex-sherink value>;
+
   
   .step-info {
     flex: 2 70%;
@@ -331,12 +335,14 @@
   .step-text p {
     color: var(--tertiary-color);
     font-size: 18px;
+    align-items: center;
   }
   
   .step-text h4 {
     font-size: 26px;
     line-height: 1.5;
     color: var(--secondary-color);
+    align-items: center;
   }
   /* WHAT YOU DO STYLES END */
   
