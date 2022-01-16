@@ -305,6 +305,7 @@
     flex: 1 30%;
   }
 
+  
   flex: <flex-grow value> <flex-sherink value> <flex-basis value>;
   flex: <flex-grow value> <flex-basis value>;
   flex: <flex-grow value> <flex-sherink value>;
